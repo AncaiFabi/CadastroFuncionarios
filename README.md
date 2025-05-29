@@ -45,7 +45,17 @@ O sistema busca resolver o problema da **falta de controle entre funcionários a
 
 ---
 
+
 ## 📂 Como Rodar o Projeto
+
+## ⚙️ Requisitos
+
+- [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) instalado
+
+Verifique a versão instalada com:
+```bash
+dotnet --version
+```
 
 1. Clone o repositório:
 ```bash
@@ -53,41 +63,17 @@ git clone https://github.com/seu-usuario/seu-repo.git
 cd seu-repo
 ```
 
-2.Configure o ambiente:
-```bash
-dotnet new tool-manifest
-```
-
-3.Instale o Entity Framework CLI:
-```bash
-dotnet tool install dotnet-ef --version 7.0.10
-```
-
-4.Instale os pacotes necessários:
-```bash
-dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 7.0.10
-dotnet add package Microsoft.EntityFrameworkCore.Design --version 7.0.10
-dotnet add package Microsoft.EntityFrameworkCore --version 7.0.10
-dotnet add package Swashbuckle.AspNetCore --version 6.4.0
-```
-
-5.Crie o banco de dados e a migration:
-```bash
-dotnet tool run dotnet-ef migrations add Inicial
-dotnet tool run dotnet-ef database update
-```
-
-6.Rode a aplicação:
+2.Rode a aplicação:
 ```bash
 dotnet build
 ```
 
-7.Rode a aplicação:
+3.Rode a aplicação:
 ```bash
 dotnet run
 ```
 
-8. Acesse a interface Swagger:
+4. Acesse a interface Swagger:
 Abra o navegador em:
 ```bash
 http://localhost:5109/swagger
