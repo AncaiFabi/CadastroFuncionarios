@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/CadastroFuncionarios-API-REST/CadastroFuncionarios.csproj": {}
+    "C:\\Users\\FABIANEDOSREISANCAI\\Fabi\\CadastroFuncionarios\\CadastroFuncionarios.csproj": {}
   },
   "projects": {
-    "/workspaces/CadastroFuncionarios-API-REST/CadastroFuncionarios.csproj": {
+    "C:\\Users\\FABIANEDOSREISANCAI\\Fabi\\CadastroFuncionarios\\CadastroFuncionarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/CadastroFuncionarios-API-REST/CadastroFuncionarios.csproj",
+        "projectUniqueName": "C:\\Users\\FABIANEDOSREISANCAI\\Fabi\\CadastroFuncionarios\\CadastroFuncionarios.csproj",
         "projectName": "CadastroFuncionarios",
-        "projectPath": "/workspaces/CadastroFuncionarios-API-REST/CadastroFuncionarios.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/CadastroFuncionarios-API-REST/obj/",
+        "projectPath": "C:\\Users\\FABIANEDOSREISANCAI\\Fabi\\CadastroFuncionarios\\CadastroFuncionarios.csproj",
+        "packagesPath": "C:\\Users\\FABIANEDOSREISANCAI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FABIANEDOSREISANCAI\\Fabi\\CadastroFuncionarios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\FABIANEDOSREISANCAI\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -40,26 +40,26 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -73,20 +73,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -95,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
