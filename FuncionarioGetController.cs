@@ -52,37 +52,4 @@ public class FuncionariosController : ControllerBase
 
         return Ok(desligados);
     }
-
-
-// POST: api/funcionarios
-[HttpPost]
-public async Task<IActionResult> Cadastrar([FromBody] Funcionario novoFuncionario)
-{
-    if (!ModelState.IsValid)
-    {
-        return BadRequest(ModelState);
-    }
-
-    _context.Funcionarios.Add(novoFuncionario);
-    await _context.SaveChangesAsync();
-
-    return CreatedAtAction(nameof(GetPorId), new { id = novoFuncionario.Id }, novoFuncionario);
-}
-// DELETE: api/funcionarios/{id}
-[HttpDelete("{id}")]
-public async Task<IActionResult> Deletar(int id)
-{
-    var funcionario = await _context.Funcionarios.FindAsync(id);
-
-    if (funcionario == null)
-    {
-        return NotFound();
-    }
-
-    _context.Funcionarios.Remove(funcionario);
-    await _context.SaveChangesAsync();
-
-    return NoContent();
-}
-
 }
